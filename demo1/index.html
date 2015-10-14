@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>翻页效果</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src="bower_components/jquery/jquery.min.js"></script>
+<script src="js/page.js"></script>
+</head>
+<body>
+<ul id="data"></ul>
+<div class="page">
+每页<input type="text" class="dataNum" id="dataNum" value="20" />条
+<a id="toChange" href="javascript:;" class="toChange">修改</a>
+
+一共<span id="all"></span>页
+<a id="home" href="javascript:;" class="dn home">首页</a>
+<a id="prev" href="javascript:;" class="dn prev">&lt;</a>
+<span class="pageBtn"></span>
+<a id="next" href="javascript:;" class="next">&gt;</a>
+<a id="last" href="javascript:;" class="last">末页</a>
+<input id="pageNum" type="text" class="pageNum" />
+<a id="go" href="javascript:;" class="go">go</a>
+</div>
+</body>
+</html>

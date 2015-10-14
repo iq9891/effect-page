@@ -1,0 +1,11 @@
+{
+  "name": "effect-page-demo1",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "1.10.1"
+  },
+  "devDependencies": {
+  },
+  "appPath": "effect-page-demo1",
+  "moduleName": "effect-page-demo1"
+}

@@ -1,0 +1,9 @@
+*{margin:0;padding:0;}
+a { background: transparent; text-decoration: none; color: #000; }
+a:active { outline: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+input{border:none;outline: 0;}
+input::-moz-placeholder, textarea::-moz-placeholder { color: #ccc;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { color: #ccc;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #ccc;}
+ul, ol { list-style: none; }

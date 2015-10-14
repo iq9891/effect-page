@@ -1,0 +1,141 @@
+@charset "utf-8";
+/*浮动*/
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{display: block;clear:both;}
+.clearfix{zoom:1;}
+
+/*居中*/
+.center{margin: 0 auto;}
+.textcenter{text-align: center;}
+.textleft{text-align: left;}
+.textright{text-align:right;}
+
+/*定位*/
+.posr{position: relative;}
+.posa{position: absolute;}
+.posf{position: fixed;}
+
+/*显示*/
+.hide{display: none;}
+.show{display: block;}
+
+/*字体*/
+.fs12{font-size: 12px;}
+.fs14{font-size: 14px;}
+.fs18{font-size: 18px;}
+.fs22{font-size: 22px;}
+
+/*圆角*/
+.radius3{
+    border-radius: 3px;
+    -ms-bordr-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-bordr-radius: 3px;
+}
+.radius5{
+    border-radius: 5px;
+    -ms-bordr-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-bordr-radius: 5px;
+}
+.radius50{
+    border-radius: 50%;
+    -ms-bordr-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-bordr-radius: 50%;
+}
+
+/*fontnoweight*/
+.fnoweight{
+    font-weight: normal;
+}
+/*fontfamily*/
+.fyahei{font-family: "microsoft yahei";}
+.fsongti{font-family:"SimSun";}
+
+/*placeholder*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #9f9f9f;
+}
+/*placeholder*/
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #9f9f9f;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #9f9f9f;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #9f9f9f;
+}
+
+/*overflow*/
+.ovfl{
+    overflow: hidden;
+}
+
+
+/*背景颜色*/
+.bgwhite{background-color: #ffffff;}
+.bgblack{background-color: #000000;}
+
+
+/*鼠标变成手*/
+.hand{
+    cursor:pointer;
+}
+
+
+@font-face{
+    font-family: 'myIcon';
+    src: url('../font/ikangappfont-regular-webfont.eot');
+    src: url('../font/ikangappfont-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/ikangappfont-regular-webfont.woff') format('woff'),
+    url('../font/ikangappfont-regular-webfont.ttf') format('truetype'),
+    url('../font/ikangappfont-regular-webfont.svg#uxiconfont') format('svg');
+}
+
+.font-icon{
+    font-family:"myIcon";
+}
+html{height:100%;}
+body{
+    background:#f4f4f4;
+    font-family: "microsoft yahei";
+    height:100%;
+    font-size:12px;
+}
+
+
+
+
+
+/****按钮样式******/
+.btn1{width:150px;}
+.btn1 .btn1-l{width:3px;height:40px;background: url("../imgs/btn1-L.png") center left;background-repeat:no-repeat;}
+.btn1 .btn1-r{width:3px;height:40px;background: url("../imgs/btn1-r.png") center right;background-repeat:no-repeat;}
+.btn1 .btn1-m{width:144px;height:40px;line-height:40px;background:#e95603;letter-spacing: 6px;color:#eef6fb;}
+
+.btn2{width:150px;}
+.btn2 .btn2-l{width:3px;height:40px;background: url("../imgs/btn2-L.png") center left;background-repeat:no-repeat;}
+.btn2 .btn2-r{width:3px;height:40px;background: url("../imgs/btn2-r.png") center right;background-repeat:no-repeat;}
+.btn2 .btn2-m{width:144px;height:40px;line-height:40px;background: #53b5e1;letter-spacing: 6px;color:#eef6fb;}
+
+.btn3{width:320px;}
+.btn3 .btn3-l{width:3px;height:40px;background: url("../imgs/btn1-L.png") center left;background-repeat:no-repeat;}
+.btn3 .btn3-r{width:3px;height:40px;background: url("../imgs/btn1-r.png") center right;background-repeat:no-repeat;}
+.btn3 .btn3-m{width:314px;height:40px;line-height:40px;background:#e95603;letter-spacing: 6px;color:#eef6fb;}
+
+.btn4{width:180px;}
+.btn4 .btn4-l{width:2px;height:40px;background: url("../imgs/gl.png") center left;background-repeat:no-repeat;}
+.btn4 .btn4-r{width:2px;height:40px;background: url("../imgs/gr.png") center right;background-repeat:no-repeat;}
+.btn4 .btn4-m{width:176px;height:40px;line-height:40px;background:#e95603;letter-spacing: 6px;color:#eef6fb;}
+
+/****input输入框样式******/
+input{border:1px solid #e5e5e5; }
+input:focus{border: 1px solid #00b9ed;}
+.error{border: 1px solid #fe0100!important;}
+
